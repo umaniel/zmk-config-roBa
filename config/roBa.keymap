@@ -72,10 +72,10 @@
 
         FUNCTION {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                          &trans  &trans  &trans    &kp UP_ARROW  &kp DEL
-&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &trans                      &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6      &kp F7                      &kp F8  &kp F9  &kp F10   &kp F11       &kp F12
-&trans        &trans        &trans        &trans        &trans  &trans      &lt_to_layer_0 6 BACKSPACE  &trans                                  &kp LC(SPACE)
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5                                          &trans  &trans  &trans    &kp UP_ARROW  &kp DEL
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9            &kp N0  &trans      &trans                      &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT
+&kp F1        &kp F2        &kp F3        &kp F4            &kp F5  &kp F6      &kp F7                      &kp F8  &kp F9  &kp F10   &kp F11       &kp F12
+&trans        &trans        &trans        &kp INT_MUHENKAN  &trans  &trans      &lt_to_layer_0 6 BACKSPACE  &trans                                  &kp LC(SPACE)
             >;
         };
 
