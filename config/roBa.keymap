@@ -82,16 +82,16 @@
 &kp Q                    &kp W  &kp E      &kp R                    &kp T                                                                    &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A                    &kp S  &kp D      &kp F                    &kp G                 &kp ESC                     &kp GRAVE              &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Z                    &kp X  &kp C      &kp V                    &kp B                 &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&holdTap LEFT_SHIFT ESC  &mo 5  &mkp LCLK  &holdTap LEFT_ALT LANG1  &holdTap LCTRL SPACE  &lt_to_layer_0 1 SPACE      &lt 5 BACKSPACE        &lt 1 ENTER                             &kp LC(SPACE)
+&holdTap LEFT_SHIFT ESC  &mo 5  &mkp LCLK  &holdTap LEFT_ALT LANG1  &holdTap LCTRL SPACE  &lt_to_layer_0 1 SPACE      &lt 2 BACKSPACE        &lt 1 ENTER                             &kp LC(SPACE)
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                          &trans  &trans  &trans    &kp UP_ARROW  &kp DEL
-&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &kp TILDE                   &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6      &kp F7                      &kp F8  &kp F9  &kp F10   &kp F11       &kp F12
-&trans        &trans        &trans        &kp LANG2     &trans  &trans      &lt_to_layer_0 6 BACKSPACE  &trans                                  &kp LC(SPACE)
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                          &trans     &trans     &trans    &kp UP_ARROW  &kp DEL
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &kp TILDE                   &kp MINUS  &kp EQUAL  &kp LEFT  &kp DOWN      &kp RIGHT
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6      &kp F7                      &kp F8     &kp F9     &kp F10   &kp F11       &kp F12
+&trans        &trans        &trans        &kp LANG2     &trans  &trans      &lt_to_layer_0 6 BACKSPACE  &trans                                        &kp LC(SPACE)
             >;
         };
 
